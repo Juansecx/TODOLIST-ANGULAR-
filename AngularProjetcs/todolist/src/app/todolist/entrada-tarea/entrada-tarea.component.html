@@ -1,0 +1,23 @@
+<div class="principal">
+
+    <div class="tarea_input">
+
+        <input type="text" class="add" placeholder="Introduce una tarea para añadir" [(ngModel)]="work"
+        (keyup.enter)="addTarea()" />
+
+    </div>
+
+    <div class="punt_input">
+
+        <input type="text" class="add" placeholder="Introduce una puntuación" [(ngModel)]="puntos"
+        (keyup.enter)="addPunt()" />
+
+    </div>
+
+    <div class="tarea_add">
+
+        <button type="button" (click)="addTarea()" class="botonAdd">Añadir tarea</button>
+
+    </div>
+
+</div>
